@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "youtube-mcp": {
+            "type": "stdio",
+            "command": "uv",
+            "args": ["run", "mcp", "run", "src/server.py"]
+        }
+    }
+}
