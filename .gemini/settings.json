@@ -1,0 +1,10 @@
+// generated via: gemini mcp add youtube-mcp uv run mcp run src/server.py
+// if I do --scope user then this would go in ~/.gemini/settings.json and is available globally
+{
+    "mcpServers": {
+        "youtube-mcp": {
+            "command": "uv",
+            "args": ["run", "mcp", "run", "src/server.py"]
+        }
+    }
+}
