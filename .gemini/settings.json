@@ -5,6 +5,9 @@
         "youtube-mcp": {
             "command": "uv",
             "args": ["run", "mcp", "run", "src/server.py"]
+            // "cwd": "home/zero/main/mcp/youtube-mcp" // had this been a global config in ~/.gemini/settings.json, you need this
+            // apparently ~/ doesn't work, has to be full path
+            // https://geminicli.com/docs/get-started/configuration/
         }
     }
 }
